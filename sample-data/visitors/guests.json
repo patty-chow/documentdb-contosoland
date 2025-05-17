@@ -1,1 +1,1198 @@
-
+[
+  {
+    "guestId": "V78912345",
+    "name": "Amara Patel",
+    "age": 34,
+    "email": "amara.patel@example.com",
+    "registrationDate": "2025-03-12T14:27:39Z",
+    "interests": [
+      "adrenaline",
+      "coasters",
+      "displays",
+      "events",
+      "lighting",
+      "moments",
+      "passion",
+      "photography",
+      "roller",
+      "rush",
+      "shows",
+      "time"
+    ],
+    "favoriteZones": [
+      "Adventure Data"
+    ]
+  },
+  {
+    "guestId": "V23456789",
+    "name": "Marcus Johnson",
+    "age": 42,
+    "email": "mjohnson@example.com",
+    "registrationDate": "2024-11-03T09:12:54Z",
+    "interests": [
+      "beats",
+      "day",
+      "food",
+      "music",
+      "opportunities",
+      "performances",
+      "ride",
+      "tasting",
+      "water"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V34567890",
+    "name": "Sophia Chen",
+    "age": 28,
+    "email": "sophiac@example.com",
+    "registrationDate": "2025-01-17T16:43:22Z",
+    "interests": [
+      "chance",
+      "characters",
+      "demos",
+      "limits",
+      "rides",
+      "stories",
+      "technology"
+    ],
+    "favoriteZones": [
+      "Digital Analytics",
+      "Imaginative Analytics",
+      "Adventure Data",
+      "Cloud Analytics"
+    ]
+  },
+  {
+    "guestId": "V45678901",
+    "name": "Jamal Wilson",
+    "age": 65,
+    "email": "jwilson65@example.com",
+    "registrationDate": "2025-04-03T10:19:47Z",
+    "interests": [
+      "artisans",
+      "attractions",
+      "botanical",
+      "crafts",
+      "demonstrate",
+      "gardens",
+      "historical",
+      "imagination",
+      "park",
+      "peace",
+      "quieter",
+      "relaxing",
+      "skilled",
+      "spots",
+      "traditional",
+      "wandering",
+      "watching"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Natural Data Systems"
+    ]
+  },
+  {
+    "guestId": "V56789012",
+    "name": "Elena Rodriguez",
+    "age": 31,
+    "email": "erodriguez@example.com",
+    "registrationDate": "2025-02-28T15:37:08Z",
+    "interests": [
+      "abactivities",
+      "adventure",
+      "animal",
+      "challenging",
+      "culinary",
+      "dance",
+      "diverse",
+      "encounters",
+      "experiences",
+      "eye",
+      "heart",
+      "myself",
+      "performances",
+      "place",
+      "special",
+      "trying"
+    ],
+    "favoriteZones": [
+      "Adventure Data",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V67890123",
+    "name": "Noah Kim",
+    "age": 19,
+    "email": "noahk@example.com",
+    "registrationDate": "2025-01-05T20:14:33Z",
+    "interests": [
+      "collecting",
+      "edition",
+      "gaming",
+      "items",
+      "life",
+      "limited",
+      "related",
+      "sci"
+    ],
+    "favoriteZones": [
+      "Digital Analytics"
+    ]
+  },
+  {
+    "guestId": "V78901234",
+    "name": "Isabella Martinez",
+    "age": 8,
+    "email": "parent_martinez@example.com",
+    "registrationDate": "2025-03-22T12:30:41Z",
+    "interests": [
+      "all",
+      "characters",
+      "designs",
+      "face",
+      "gentle",
+      "meeting",
+      "painted",
+      "perfect",
+      "princess",
+      "rides",
+      "sparkly",
+      "stories"
+    ],
+    "favoriteZones": [
+      "Imaginative Analytics"
+    ]
+  },
+  {
+    "guestId": "V89012345",
+    "name": "Thomas Wright",
+    "age": 52,
+    "email": "twright@example.com",
+    "registrationDate": "2024-12-07T08:54:19Z",
+    "interests": [
+      "authentic",
+      "beer",
+      "camera",
+      "craft",
+      "cuisine",
+      "especially",
+      "live",
+      "memorable",
+      "moments",
+      "music",
+      "paired",
+      "park",
+      "performances",
+      "ready",
+      "southern",
+      "tastings"
+    ],
+    "favoriteZones": [
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V90123456",
+    "name": "Olivia Donovan",
+    "age": 37,
+    "email": "oliviad@example.com",
+    "registrationDate": "2025-02-14T14:48:27Z",
+    "interests": [
+      "activities",
+      "art",
+      "cuisine",
+      "during",
+      "innovative",
+      "installations",
+      "parks",
+      "practices",
+      "showcase",
+      "sustainable",
+      "time",
+      "vegetarian",
+      "visits",
+      "wellness"
+    ],
+    "favoriteZones": [
+      "Innovation Analytics"
+    ]
+  },
+  {
+    "guestId": "V01234567",
+    "name": "Miguel Sanchez",
+    "age": 45,
+    "email": "miguels@example.com",
+    "registrationDate": "2025-01-30T11:22:16Z",
+    "interests": [
+      "activities",
+      "adventures",
+      "attractions",
+      "barbecue",
+      "big",
+      "family",
+      "fan",
+      "good",
+      "outdoor",
+      "participate",
+      "themed",
+      "together",
+      "western",
+      "whole"
+    ],
+    "favoriteZones": [
+      "Adventure Data"
+    ]
+  },
+  {
+    "guestId": "V12345098",
+    "name": "Aiden Thompson",
+    "age": 24,
+    "email": "aident@example.com",
+    "registrationDate": "2025-04-01T16:38:52Z",
+    "interests": [
+      "activities",
+      "attractions",
+      "evening",
+      "events",
+      "friends",
+      "group",
+      "instagram",
+      "nightlife",
+      "park",
+      "programming",
+      "special",
+      "spots",
+      "trending",
+      "worthy"
+    ],
+    "favoriteZones": [
+      "Smart Data"
+    ]
+  },
+  {
+    "guestId": "V23456109",
+    "name": "Leila Washington",
+    "age": 71,
+    "email": "leilawash@example.com",
+    "registrationDate": "2024-11-12T09:33:41Z",
+    "interests": [
+      "accessible",
+      "accommodate",
+      "attractions",
+      "classical",
+      "educational",
+      "exhibits",
+      "historical",
+      "joy",
+      "mobility",
+      "music",
+      "needs",
+      "park",
+      "performances",
+      "tours",
+      "value"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V34567210",
+    "name": "Raj Patel",
+    "age": 40,
+    "email": "raj.patel@example.com",
+    "registrationDate": "2025-03-20T13:12:09Z",
+    "interests": [
+      "angles",
+      "capturing",
+      "cuisine",
+      "cultural",
+      "educational",
+      "especially",
+      "exhibits",
+      "experiences",
+      "exploring",
+      "family",
+      "from",
+      "greatest",
+      "international",
+      "passion",
+      "photography",
+      "unique",
+      "value"
+    ],
+    "favoriteZones": [
+      "Data Discovery",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V45678321",
+    "name": "Emma Lewis",
+    "age": 29,
+    "email": "emmalewis@example.com",
+    "registrationDate": "2025-01-15T19:42:53Z",
+    "interests": [
+      "active",
+      "adventures",
+      "attractions",
+      "especially",
+      "even",
+      "fitness",
+      "food",
+      "healthy",
+      "heart",
+      "limits",
+      "options",
+      "outdoor",
+      "park",
+      "physical",
+      "pumping",
+      "track",
+      "visits"
+    ],
+    "favoriteZones": [
+      "Adventure Data"
+    ]
+  },
+  {
+    "guestId": "V56789432",
+    "name": "Jackson Yu",
+    "age": 11,
+    "email": "parent_yu@example.com",
+    "registrationDate": "2024-12-25T10:57:22Z",
+    "interests": [
+      "coolest",
+      "dinosaurs",
+      "ever",
+      "experiments",
+      "prehistoric",
+      "science",
+      "thing"
+    ],
+    "favoriteZones": [
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V67890543",
+    "name": "Fatima Al-Farsi",
+    "age": 32,
+    "email": "fatima.alfarsi@example.com",
+    "registrationDate": "2025-02-18T14:29:31Z",
+    "interests": [
+      "around",
+      "beautiful",
+      "botanical",
+      "ceremonies",
+      "cultural",
+      "experiences",
+      "fascinated",
+      "from",
+      "gardens",
+      "mindfulness",
+      "mine",
+      "particular",
+      "passion",
+      "peace",
+      "relaxation",
+      "spaces",
+      "tea",
+      "traditional",
+      "world"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Natural Data Systems",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V78901654",
+    "name": "Diego Morales",
+    "age": 27,
+    "email": "diegom@example.com",
+    "registrationDate": "2025-04-10T08:17:44Z",
+    "interests": [
+      "adrenaline",
+      "energized",
+      "enough",
+      "extreme",
+      "food",
+      "gets",
+      "live",
+      "music",
+      "rock",
+      "rushes",
+      "spicy",
+      "sports"
+    ],
+    "favoriteZones": [
+      "Adventure Data"
+    ]
+  },
+  {
+    "guestId": "V89012765",
+    "name": "Charlotte Beaumont",
+    "age": 38,
+    "email": "cbeaumont@example.com",
+    "registrationDate": "2025-01-07T15:39:28Z",
+    "interests": [
+      "abarts",
+      "behind",
+      "culinary",
+      "cultural",
+      "different",
+      "dining",
+      "exploring",
+      "fascinates",
+      "fine",
+      "histories",
+      "jazz",
+      "mixology",
+      "music",
+      "soul",
+      "speaks",
+      "stories",
+      "their",
+      "traditions"
+    ],
+    "favoriteZones": [
+      "Imaginative Analytics",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V90123876",
+    "name": "Mateo Espinosa",
+    "age": 9,
+    "email": "parent_espinosa@example.com",
+    "registrationDate": "2025-03-30T11:27:36Z",
+    "interests": [
+      "astronaut",
+      "coolest",
+      "ever",
+      "someday",
+      "space",
+      "thing"
+    ],
+    "favoriteZones": [
+      "Imaginative Analytics",
+      "Predictive Analytics"
+    ]
+  },
+  {
+    "guestId": "V01234987",
+    "name": "Sarah Goldstein",
+    "age": 43,
+    "email": "sarahg@example.com",
+    "registrationDate": "2024-12-18T12:36:51Z",
+    "interests": [
+      "art",
+      "captivate",
+      "dining",
+      "exhibitions",
+      "experiences",
+      "fine",
+      "joy",
+      "park",
+      "performances",
+      "shows",
+      "special",
+      "theatrical"
+    ],
+    "favoriteZones": [
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V12345098",
+    "name": "Benjamin Chen",
+    "age": 67,
+    "email": "benchen@example.com",
+    "registrationDate": "2025-02-05T09:22:14Z",
+    "interests": [
+      "activities",
+      "areas",
+      "bird",
+      "brings",
+      "especially",
+      "gentle",
+      "mindfulness",
+      "park",
+      "quiet",
+      "tours",
+      "tranquility",
+      "walking",
+      "watching"
+    ],
+    "favoriteZones": [
+      "Natural Data Systems",
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V23456109",
+    "name": "Maya Johnson",
+    "age": 14,
+    "email": "parent_johnson@example.com",
+    "registrationDate": "2025-03-17T16:48:22Z",
+    "interests": [
+      "activities",
+      "adventure",
+      "art",
+      "conservation",
+      "creativity",
+      "life",
+      "marine",
+      "ocean",
+      "rides",
+      "stories"
+    ],
+    "favoriteZones": [
+      "Data Discovery",
+      "Imaginative Analytics",
+      "Adventure Data"
+    ]
+  },
+  {
+    "guestId": "V34567210",
+    "name": "Gabriel Santos",
+    "age": 36,
+    "email": "gsantos@example.com",
+    "registrationDate": "2025-01-22T11:53:49Z",
+    "interests": [
+      "beverages",
+      "craft",
+      "cuisines",
+      "diverse",
+      "festivals",
+      "music",
+      "park",
+      "reason",
+      "visiting"
+    ],
+    "favoriteZones": [
+      "Digital Analytics",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V45678321",
+    "name": "Lily Wong",
+    "age": 7,
+    "email": "parent_wong@example.com",
+    "registrationDate": "2025-04-05T14:17:33Z",
+    "interests": [
+      "characters",
+      "from",
+      "getting",
+      "happy",
+      "hugs",
+      "meeting",
+      "princess",
+      "stories",
+      "them"
+    ],
+    "favoriteZones": [
+      "Imaginative Analytics"
+    ]
+  },
+  {
+    "guestId": "V56789432",
+    "name": "Anthony Rodriguez",
+    "age": 51,
+    "email": "arod@example.com",
+    "registrationDate": "2024-11-30T10:25:18Z",
+    "interests": [
+      "architectural",
+      "capturing",
+      "cars",
+      "classic",
+      "details",
+      "especially",
+      "history",
+      "photography",
+      "transportation"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V67890543",
+    "name": "Priya Sharma",
+    "age": 25,
+    "email": "priyas@example.com",
+    "registrationDate": "2025-02-22T13:48:37Z",
+    "interests": [
+      "abduring",
+      "eco",
+      "friendly",
+      "living",
+      "meditation",
+      "park",
+      "practices",
+      "spaces",
+      "sustainable",
+      "visits",
+      "yoga"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Natural Data Systems",
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V78901654",
+    "name": "Robert Johnson",
+    "age": 48,
+    "email": "rjohnson@example.com",
+    "registrationDate": "2025-03-05T09:37:26Z",
+    "interests": [
+      "authentic",
+      "beverages",
+      "blues",
+      "craft",
+      "cuisine",
+      "draw",
+      "jazz",
+      "park",
+      "performances",
+      "quality",
+      "regional"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Data Discovery",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V89012765",
+    "name": "Zoe Martinez",
+    "age": 22,
+    "email": "zoem@example.com",
+    "registrationDate": "2025-01-11T15:22:48Z",
+    "interests": [
+      "amazing",
+      "drinks",
+      "food",
+      "media",
+      "park",
+      "photos",
+      "social",
+      "spots",
+      "themed",
+      "visits"
+    ],
+    "favoriteZones": [
+      "Smart Data"
+    ]
+  },
+  {
+    "guestId": "V90123876",
+    "name": "David O'Connor",
+    "age": 39,
+    "email": "doconnor@example.com",
+    "registrationDate": "2024-12-20T11:35:42Z",
+    "interests": [
+      "built",
+      "engineering",
+      "experiences",
+      "fascinated",
+      "highlights",
+      "marvels",
+      "reality",
+      "simulation",
+      "things",
+      "virtual",
+      "visits"
+    ],
+    "favoriteZones": [
+      "Digital Analytics",
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V01234987",
+    "name": "Aisha Williams",
+    "age": 33,
+    "email": "aishaw@example.com",
+    "registrationDate": "2025-03-25T14:47:21Z",
+    "interests": [
+      "art",
+      "celebrations",
+      "contribute",
+      "cultural",
+      "diversity",
+      "environments",
+      "experiences",
+      "immersive",
+      "installations",
+      "interactive",
+      "learning",
+      "meaningful",
+      "peaceful",
+      "reflection",
+      "spaces",
+      "special"
+    ],
+    "favoriteZones": [
+      "Data Discovery",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V12345098",
+    "name": "Jason Kim",
+    "age": 41,
+    "email": "jasonk@example.com",
+    "registrationDate": "2025-01-28T09:33:17Z",
+    "interests": [
+      "architecture",
+      "around",
+      "conditions",
+      "elements",
+      "lighting",
+      "nature",
+      "park",
+      "perfect",
+      "photograph",
+      "seeking",
+      "subjects",
+      "visits"
+    ],
+    "favoriteZones": [
+      "Natural Data Systems",
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V23456109",
+    "name": "Maria Gonzalez",
+    "age": 76,
+    "email": "mariag@example.com",
+    "registrationDate": "2024-12-05T10:54:33Z",
+    "interests": [
+      "accessible",
+      "areas",
+      "cultural",
+      "enjoyment",
+      "essential",
+      "good",
+      "heritage",
+      "music",
+      "performances",
+      "seating",
+      "treasure",
+      "views"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V34567210",
+    "name": "Tyler Washington",
+    "age": 12,
+    "email": "parent_wash@example.com",
+    "registrationDate": "2025-02-14T13:27:44Z",
+    "interests": [
+      "absolute",
+      "fast",
+      "favorites",
+      "feel",
+      "funny",
+      "games",
+      "rides",
+      "stomach",
+      "stuff",
+      "super",
+      "tech",
+      "video"
+    ],
+    "favoriteZones": [
+      "Data Discovery",
+      "Innovation Analytics"
+    ]
+  },
+  {
+    "guestId": "V45678321",
+    "name": "Grace Liu",
+    "age": 58,
+    "email": "gracel@example.com",
+    "registrationDate": "2025-03-08T11:15:39Z",
+    "interests": [
+      "arts",
+      "botanical",
+      "close",
+      "contemplation",
+      "cultural",
+      "heart",
+      "initiatives",
+      "joy",
+      "photography",
+      "preservation",
+      "quiet",
+      "spaces",
+      "traditional"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Natural Data Systems",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V56789432",
+    "name": "Nathan Carter",
+    "age": 31,
+    "email": "nathanc@example.com",
+    "registrationDate": "2024-11-18T15:37:52Z",
+    "interests": [
+      "abcutting",
+      "demonstrations",
+      "edge",
+      "experiences",
+      "innovation",
+      "interactive",
+      "interest",
+      "learning",
+      "sustainable",
+      "technology"
+    ],
+    "favoriteZones": [
+      "Digital Analytics",
+      "Data Discovery",
+      "Innovation Analytics"
+    ]
+  },
+  {
+    "guestId": "V67890543",
+    "name": "Olivia Smith",
+    "age": 15,
+    "email": "parent_smith@example.com",
+    "registrationDate": "2025-01-09T12:45:33Z",
+    "interests": [
+      "abadventure",
+      "attractions",
+      "based",
+      "best",
+      "books",
+      "conservation",
+      "learning",
+      "life",
+      "marine",
+      "ocean",
+      "stories",
+      "themed"
+    ],
+    "favoriteZones": [
+      "Data Discovery",
+      "Imaginative Analytics",
+      "Adventure Data"
+    ]
+  },
+  {
+    "guestId": "V78901654",
+    "name": "Michael Thompson",
+    "age": 47,
+    "email": "miket@example.com",
+    "registrationDate": "2025-02-17T14:22:38Z",
+    "interests": [
+      "craftsmanship",
+      "exhibits",
+      "historical",
+      "history",
+      "learning",
+      "living",
+      "reenactments",
+      "techniques",
+      "traditional"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Data Discovery",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V89012765",
+    "name": "Samira Ahmed",
+    "age": 29,
+    "email": "samiraa@example.com",
+    "registrationDate": "2025-03-14T13:27:19Z",
+    "interests": [
+      "abbotanical",
+      "conditions",
+      "cultural",
+      "diverse",
+      "global",
+      "hobby",
+      "lighting",
+      "parks",
+      "photography",
+      "pursue",
+      "representations",
+      "themes",
+      "unique",
+      "unity"
+    ],
+    "favoriteZones": [
+      "Natural Data Systems",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V90123876",
+    "name": "William Jackson",
+    "age": 63,
+    "email": "wjackson@example.com",
+    "registrationDate": "2024-12-14T10:33:47Z",
+    "interests": [
+      "abachievements",
+      "architectural",
+      "attention",
+      "design",
+      "details",
+      "elements",
+      "engineering",
+      "exhibits",
+      "history",
+      "transportation"
+    ],
+    "favoriteZones": [
+      "Historical Data"
+    ]
+  },
+  {
+    "guestId": "V01234987",
+    "name": "Mia Nguyen",
+    "age": 26,
+    "email": "mian@example.com",
+    "registrationDate": "2025-01-25T15:48:22Z",
+    "interests": [
+      "delicious",
+      "finding",
+      "food",
+      "instagram",
+      "park",
+      "spots",
+      "stunning",
+      "visuals"
+    ],
+    "favoriteZones": [
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V12345098",
+    "name": "Jonathan Miller",
+    "age": 34,
+    "email": "jonathanm@example.com",
+    "registrationDate": "2025-04-02T09:27:44Z",
+    "interests": [
+      "abexhibits",
+      "experiment",
+      "green",
+      "innovations",
+      "interactive",
+      "science",
+      "sustainable",
+      "technology"
+    ],
+    "favoriteZones": [
+      "Digital Analytics",
+      "Data Discovery",
+      "Predictive Analytics"
+    ]
+  },
+  {
+    "guestId": "V23456109",
+    "name": "Liam O'Brien",
+    "age": 10,
+    "email": "parent_obrien@example.com",
+    "registrationDate": "2025-02-28T14:32:51Z",
+    "interests": [
+      "awesome",
+      "dad",
+      "dinosaurs",
+      "fast",
+      "rides",
+      "super"
+    ],
+    "favoriteZones": [
+      "Data Discovery",
+      "Innovation Analytics"
+    ]
+  },
+  {
+    "guestId": "V34567210",
+    "name": "Kayla Roberts",
+    "age": 21,
+    "email": "kaylar@example.com",
+    "registrationDate": "2025-01-19T11:48:37Z",
+    "interests": [
+      "experiences",
+      "friends",
+      "hunting",
+      "interactive",
+      "media",
+      "online",
+      "opportunity",
+      "photo",
+      "social"
+    ],
+    "favoriteZones": [
+      "Smart Data"
+    ]
+  },
+  {
+    "guestId": "V45678321",
+    "name": "Daniel Patel",
+    "age": 44,
+    "email": "dpatel@example.com",
+    "registrationDate": "2025-03-11T13:54:22Z",
+    "interests": [
+      "activities",
+      "disguised",
+      "entertainment",
+      "family",
+      "kids",
+      "lasting",
+      "learning",
+      "memories",
+      "opportunities"
+    ],
+    "favoriteZones": [
+      "Data Discovery",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V56789432",
+    "name": "Hannah Wilson",
+    "age": 17,
+    "email": "parent_wilson@example.com",
+    "registrationDate": "2024-12-22T10:37:48Z",
+    "interests": [
+      "art",
+      "artists",
+      "attractions",
+      "contribute",
+      "fascinating",
+      "installations",
+      "interact",
+      "music",
+      "performances",
+      "themed"
+    ],
+    "favoriteZones": [
+      "Data Discovery"
+    ]
+  },
+  {
+    "guestId": "V67890543",
+    "name": "Luis Hernandez",
+    "age": 69,
+    "email": "luish@example.com",
+    "registrationDate": "2025-02-09T11:22:37Z",
+    "interests": [
+      "accessible",
+      "areas",
+      "attractions",
+      "comfortable",
+      "cultural",
+      "heritage",
+      "music",
+      "performances",
+      "traditional",
+      "viewing"
+    ],
+    "favoriteZones": [
+      "Historical Data",
+      "Imaginative Analytics",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V78901654",
+    "name": "Emily Johnson",
+    "age": 35,
+    "email": "emilyj@example.com",
+    "registrationDate": "2025-01-31T14:17:22Z",
+    "interests": [
+      "classroom",
+      "components",
+      "educational",
+      "exhibits",
+      "experiences",
+      "interactive"
+    ],
+    "favoriteZones": [
+      "Data Discovery",
+      "Global Data"
+    ]
+  },
+  {
+    "guestId": "V89012765",
+    "name": "Ryan Baker",
+    "age": 28,
+    "email": "ryanb@example.com",
+    "registrationDate": "2025-03-02T10:48:33Z",
+    "interests": [
+      "adrenaline",
+      "extreme",
+      "limits",
+      "maximum",
+      "motivation",
+      "parks",
+      "rides",
+      "testing",
+      "thrill",
+      "visiting"
+    ],
+    "favoriteZones": [
+      "Adventure Data",
+      "Innovation Analytics"
+    ]
+  },
+  {
+    "guestId": "V90123876",
+    "name": "Sophia Williams",
+    "age": 30,
+    "email": "sophiaw@example.com",
+    "registrationDate": "2024-11-25T12:37:48Z",
+    "interests": [
+      "activities",
+      "art",
+      "authentic",
+      "celebrations",
+      "creative",
+      "cuisine",
+      "cultural",
+      "exploring",
+      "international",
+      "park",
+      "unique",
+      "workshops"
+    ],
+    "favoriteZones": [
+      "Natural Data Systems",
+      "Imaginative Analytics",
+      "Global Data"
+    ]
+  }
+]
