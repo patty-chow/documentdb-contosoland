@@ -1,0 +1,77 @@
+// Prerequisites:
+// 1. Docker container running
+// 2. MongoDB installed
+// 3. Database created: "visitors"
+// 4. Collections created: "guests", "wristbands", "entries" with sample data
+// 5. Ensure this scrapbook is connected to the "contosoland\visitors" database
+
+// Basic Document Queries
+
+db.guests.find({ email: "amara.patel@example.com" })
+
+db.guests.find({ favoriteZones: "Adventure Data" })
+
+// 3. Get guests with more than 3 interests
+db.guests.find({ "interests.3": { $exists: true } })
+
+// 🔄 Relational-Like Joins (Manual or Aggregation)
+
+// 4. Get wristband info for a specific guest
+db.wristbands.find({ guestId: "V78912345" })
+
+// 5. List all entry/exit records with guest names (aggregation join)
+db.entries.aggregate([
+  {
+    $lookup: {
+      from: "guests",
+      localField: "guestId",
+      foreignField: "guestId",
+      as: "guestInfo"
+    }
+  },
+  { $unwind: "$guestInfo" },
+  {
+    $project: {
+      entryId: 1,
+      entryTimestamp: 1,
+      exitTimestamp: 1,
+      name: "$guestInfo.name"
+    }
+  }
+])
+
+// Filtering, Sorting, and Metrics
+
+// 6. Find wristbands with low battery
+db.wristbands.find({ batteryLevel: { $lt: 30 } })
+
+// 7. Get the 5 most recent entries
+db.entries.find().sort({ entryTimestamp: -1 }).limit(5)
+
+// Time-Based Queries
+
+// 8. List all guests who entered after noon
+db.entries.find({
+  entryTimestamp: { $gte: "2025-05-03T12:00:00Z" }
+})
+
+// 9. Find average stay time per guest
+db.entries.aggregate([
+  {
+    $project: {
+      guestId: 1,
+      durationMinutes: {
+        $divide: [
+          { $subtract: [ { $toDate: "$exitTimestamp" }, { $toDate: "$entryTimestamp" } ] },
+          1000 , 60
+        ]
+      }
+    }
+  },
+  {
+    $group: {
+      _id: "$guestId",
+      avgVisitDuration: { $avg: "$durationMinutes" }
+    }
+  }
+])
