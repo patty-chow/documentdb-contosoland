@@ -1,0 +1,98 @@
+[
+  {
+    "customerId": "CUST001",
+    "company": "TechCorp Solutions",
+    "industry": "Technology",
+    "tier": "enterprise",
+    "contactInfo": {
+      "primary": {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@techcorp.example.com",
+        "phone": "+1-555-0123"
+      },
+      "billing": {
+        "name": "Michael Ross",
+        "email": "billing@techcorp.example.com",
+        "phone": "+1-555-0124"
+      }
+    },
+    "subscription": {
+      "plan": "Enterprise Plus",
+      "seats": 500,
+      "startDate": "2024-01-01T00:00:00Z",
+      "renewalDate": "2025-01-01T00:00:00Z",
+      "amount": 50000.00,
+      "status": "active",
+      "features": ["advanced_analytics", "priority_support", "custom_integrations", "sla_guarantee"]
+    },
+    "metadata": {
+      "createdAt": "2023-12-15T09:00:00Z",
+      "region": "NA",
+      "tags": ["enterprise", "tech", "priority"]
+    }
+  },
+  {
+    "customerId": "CUST002",
+    "company": "Global Retail Inc",
+    "industry": "Retail",
+    "tier": "business",
+    "contactInfo": {
+      "primary": {
+        "name": "James Wilson",
+        "email": "jwilson@globalretail.example.com",
+        "phone": "+1-555-0125"
+      },
+      "billing": {
+        "name": "Amanda Lee",
+        "email": "billing@globalretail.example.com",
+        "phone": "+1-555-0126"
+      }
+    },
+    "subscription": {
+      "plan": "Business Pro",
+      "seats": 100,
+      "startDate": "2024-02-01T00:00:00Z",
+      "renewalDate": "2025-02-01T00:00:00Z",
+      "amount": 12000.00,
+      "status": "active",
+      "features": ["basic_analytics", "standard_support", "api_access"]
+    },
+    "metadata": {
+      "createdAt": "2024-01-15T10:30:00Z",
+      "region": "EU",
+      "tags": ["retail", "business"]
+    }
+  },
+  {
+    "customerId": "CUST003",
+    "company": "StartupHub",
+    "industry": "Technology",
+    "tier": "startup",
+    "contactInfo": {
+      "primary": {
+        "name": "Alex Kumar",
+        "email": "alex@startuphub.example.com",
+        "phone": "+1-555-0127"
+      },
+      "billing": {
+        "name": "Alex Kumar",
+        "email": "alex@startuphub.example.com",
+        "phone": "+1-555-0127"
+      }
+    },
+    "subscription": {
+      "plan": "Startup Special",
+      "seats": 25,
+      "startDate": "2024-03-01T00:00:00Z",
+      "renewalDate": "2025-03-01T00:00:00Z",
+      "amount": 3000.00,
+      "status": "active",
+      "features": ["basic_analytics", "community_support", "api_access"]
+    },
+    "metadata": {
+      "createdAt": "2024-02-15T14:20:00Z",
+      "region": "APAC",
+      "tags": ["startup", "tech"]
+    }
+  }
+]

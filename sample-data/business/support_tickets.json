@@ -1,0 +1,53 @@
+[
+  {
+    "ticketId": "TKT001",
+    "customerId": "CUST001",
+    "priority": "high",
+    "status": "open",
+    "subject": "Integration Issue",
+    "description": "Custom integration with SAP not syncing data properly",
+    "category": "integration",
+    "createdAt": "2024-03-14T15:30:00Z",
+    "updatedAt": "2024-03-15T09:00:00Z",
+    "assignedTo": "support_team_a",
+    "metadata": {
+      "source": "email",
+      "environment": "production",
+      "affectedUsers": 50
+    }
+  },
+  {
+    "ticketId": "TKT002",
+    "customerId": "CUST002",
+    "priority": "medium",
+    "status": "resolved",
+    "subject": "Report Export Failed",
+    "description": "Unable to export monthly analytics report",
+    "category": "reporting",
+    "createdAt": "2024-03-13T11:20:00Z",
+    "updatedAt": "2024-03-14T16:45:00Z",
+    "assignedTo": "support_team_b",
+    "metadata": {
+      "source": "web_portal",
+      "environment": "production",
+      "affectedUsers": 5
+    }
+  },
+  {
+    "ticketId": "TKT003",
+    "customerId": "CUST003",
+    "priority": "low",
+    "status": "open",
+    "subject": "Dashboard Loading Slow",
+    "description": "Analytics dashboard taking longer than usual to load",
+    "category": "performance",
+    "createdAt": "2024-03-15T08:15:00Z",
+    "updatedAt": "2024-03-15T08:15:00Z",
+    "assignedTo": "support_team_c",
+    "metadata": {
+      "source": "chat",
+      "environment": "production",
+      "affectedUsers": 2
+    }
+  }
+]

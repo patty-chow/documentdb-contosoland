@@ -1,0 +1,50 @@
+[
+  {
+    "logId": "LOG001",
+    "customerId": "CUST001",
+    "timestamp": "2024-03-15T08:30:00Z",
+    "feature": "advanced_analytics",
+    "action": "report_generation",
+    "resourceUsage": {
+      "computeTime": 120,
+      "dataProcessed": 500000
+    },
+    "metadata": {
+      "userAgent": "Mozilla/5.0",
+      "ipAddress": "192.168.1.1",
+      "status": "success"
+    }
+  },
+  {
+    "logId": "LOG002",
+    "customerId": "CUST002",
+    "timestamp": "2024-03-15T09:15:00Z",
+    "feature": "api_access",
+    "action": "data_export",
+    "resourceUsage": {
+      "computeTime": 45,
+      "dataProcessed": 150000
+    },
+    "metadata": {
+      "userAgent": "Python/requests-2.26.0",
+      "ipAddress": "192.168.1.2",
+      "status": "success"
+    }
+  },
+  {
+    "logId": "LOG003",
+    "customerId": "CUST003",
+    "timestamp": "2024-03-15T10:00:00Z",
+    "feature": "basic_analytics",
+    "action": "dashboard_view",
+    "resourceUsage": {
+      "computeTime": 15,
+      "dataProcessed": 50000
+    },
+    "metadata": {
+      "userAgent": "Mozilla/5.0",
+      "ipAddress": "192.168.1.3",
+      "status": "success"
+    }
+  }
+]

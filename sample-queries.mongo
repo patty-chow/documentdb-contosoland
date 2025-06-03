@@ -1,77 +1,124 @@
-// Prerequisites:
-// 1. Docker container running
-// 2. MongoDB installed
-// 3. Database created: "visitors"
-// 4. Collections created: "guests", "wristbands", "entries" with sample data
-// 5. Ensure this scrapbook is connected to the "contosoland\visitors" database
+// B2B SaaS Platform Analytics Queries
 
-// Basic Document Queries
+// 1. Basic Customer Information
+// Find all enterprise customers
+db.customers.find({ tier: "enterprise" })
 
-db.guests.find({ email: "amara.patel@example.com" })
+// Find customers with expiring subscriptions in next 30 days
+db.customers.find({
+  "subscription.renewalDate": {
+    $gte: new Date(),
+    $lte: new Date(new Date().setDate(new Date().getDate() + 30))
+  }
+})
 
-db.guests.find({ favoriteZones: "Adventure Data" })
-
-// 3. Get guests with more than 3 interests
-db.guests.find({ "interests.3": { $exists: true } })
-
-// 🔄 Relational-Like Joins (Manual or Aggregation)
-
-// 4. Get wristband info for a specific guest
-db.wristbands.find({ guestId: "V78912345" })
-
-// 5. List all entry/exit records with guest names (aggregation join)
-db.entries.aggregate([
+// 2. Usage Analytics
+// Calculate total compute time per customer
+db.usage_logs.aggregate([
   {
-    $lookup: {
-      from: "guests",
-      localField: "guestId",
-      foreignField: "guestId",
-      as: "guestInfo"
-    }
-  },
-  { $unwind: "$guestInfo" },
-  {
-    $project: {
-      entryId: 1,
-      entryTimestamp: 1,
-      exitTimestamp: 1,
-      name: "$guestInfo.name"
+    $group: {
+      _id: "$customerId",
+      totalComputeTime: { $sum: "$resourceUsage.computeTime" },
+      totalDataProcessed: { $sum: "$resourceUsage.dataProcessed" }
     }
   }
 ])
 
-// Filtering, Sorting, and Metrics
+// Find features used by specific customer
+db.usage_logs.distinct("feature", { customerId: "CUST001" })
 
-// 6. Find wristbands with low battery
-db.wristbands.find({ batteryLevel: { $lt: 30 } })
+// 3. Support Ticket Analysis
+// Get open high-priority tickets with customer info
+db.support_tickets.aggregate([
+  {
+    $match: {
+      status: "open",
+      priority: "high"
+    }
+  },
+  {
+    $lookup: {
+      from: "customers",
+      localField: "customerId",
+      foreignField: "customerId",
+      as: "customerInfo"
+    }
+  }
+])
 
-// 7. Get the 5 most recent entries
-db.entries.find().sort({ entryTimestamp: -1 }).limit(5)
-
-// Time-Based Queries
-
-// 8. List all guests who entered after noon
-db.entries.find({
-  entryTimestamp: { $gte: "2025-05-03T12:00:00Z" }
-})
-
-// 9. Find average stay time per guest
-db.entries.aggregate([
+// Calculate average resolution time for tickets
+db.support_tickets.aggregate([
+  {
+    $match: { status: "resolved" }
+  },
   {
     $project: {
-      guestId: 1,
-      durationMinutes: {
+      resolutionTime: {
         $divide: [
-          { $subtract: [ { $toDate: "$exitTimestamp" }, { $toDate: "$entryTimestamp" } ] },
-          1000 , 60
+          { $subtract: [{ $toDate: "$updatedAt" }, { $toDate: "$createdAt" }] },
+          3600000 // Convert to hours
         ]
       }
     }
   },
   {
     $group: {
-      _id: "$guestId",
-      avgVisitDuration: { $avg: "$durationMinutes" }
+      _id: null,
+      avgResolutionTime: { $avg: "$resolutionTime" }
+    }
+  }
+])
+
+// 4. Revenue Analysis
+// Calculate total revenue by subscription tier
+db.customers.aggregate([
+  {
+    $group: {
+      _id: "$tier",
+      totalRevenue: { $sum: "$subscription.amount" },
+      customerCount: { $sum: 1 }
+    }
+  }
+])
+
+// 5. Feature Usage Patterns
+// Most used features across all customers
+db.usage_logs.aggregate([
+  {
+    $group: {
+      _id: "$feature",
+      usageCount: { $sum: 1 }
+    }
+  },
+  {
+    $sort: { usageCount: -1 }
+  }
+])
+
+// 6. Customer Health Metrics
+// Find customers with high support ticket volume
+db.support_tickets.aggregate([
+  {
+    $group: {
+      _id: "$customerId",
+      ticketCount: { $sum: 1 }
+    }
+  },
+  {
+    $match: {
+      ticketCount: { $gt: 5 }
+    }
+  }
+])
+
+// 7. Regional Analysis
+// Customer distribution by region
+db.customers.aggregate([
+  {
+    $group: {
+      _id: "$metadata.region",
+      customerCount: { $sum: 1 },
+      totalRevenue: { $sum: "$subscription.amount" }
     }
   }
 ])
