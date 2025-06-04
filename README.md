@@ -1,10 +1,10 @@
-# Getting Started with DocumentDB for B2B SaaS
+# Getting Started with DocumentDB
 
-This guide demonstrates how to use DocumentDB for building scalable B2B SaaS applications. Learn how to manage customer data, track usage analytics, and handle support tickets using document-style databases.
+This guide demonstrates how to use DocumentDB for building scalable applications. Learn how to manage customer data, track usage analytics, and handle support tickets using document-style databases.
 
 ## 🚀 Features
 
-- Multi-tenant data architecture
+- Data architecture
 - Usage analytics tracking
 - Customer management
 - Support ticket handling
@@ -20,7 +20,7 @@ This guide demonstrates how to use DocumentDB for building scalable B2B SaaS app
 
 ## 📚 Sample Data Sets
 
-The repository includes realistic B2B SaaS sample data:
+The repository includes realistic sample data:
 
 - `customers.json`: Organization and subscription data
 - `usage_logs.json`: Feature usage and resource consumption
@@ -28,9 +28,9 @@ The repository includes realistic B2B SaaS sample data:
 
 ## 🔍 Key Capabilities
 
-- Multi-tenant data isolation
+- Data isolation
 - Usage-based analytics
-- Customer health monitoring
+- Customer monitoring
 - Support ticket management
 - Revenue analysis
 - Regional distribution insights
@@ -41,7 +41,7 @@ The repository includes realistic B2B SaaS sample data:
 2. Open `start-here.ipynb` in Jupyter Notebook
 3. Follow the step-by-step guide to:
    - Set up DocumentDB locally
-   - Load sample B2B data
+   - Load sample data
    - Run example queries
    - Learn best practices
 
