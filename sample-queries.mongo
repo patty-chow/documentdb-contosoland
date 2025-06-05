@@ -1,10 +1,11 @@
-// B2B SaaS Platform Analytics Queries
+// Document Database Analytics Queries
 
-// 1. Basic Customer Information
-// Find all enterprise customers
+// Find all enterprise tier customers
+// Returns customers with tier="enterprise" and their full details
 db.customers.find({ tier: "enterprise" })
 
-// Find customers with expiring subscriptions in next 30 days
+// Find customers with subscriptions expiring in the next 30 days
+// Returns customers whose renewalDate falls within the next 30-day window
 db.customers.find({
   "subscription.renewalDate": {
     $gte: new Date(),
@@ -12,8 +13,9 @@ db.customers.find({
   }
 })
 
-// 2. Usage Analytics
-// Calculate total compute time per customer
+// Calculate total resource usage per customer
+// Groups usage by customerId and sums computeTime and dataProcessed
+// Returns customer IDs with their total resource consumption
 db.usage_logs.aggregate([
   {
     $group: {
@@ -24,11 +26,12 @@ db.usage_logs.aggregate([
   }
 ])
 
-// Find features used by specific customer
+// List unique features used by a specific customer
+// Returns distinct feature names used by customer CUST001
 db.usage_logs.distinct("feature", { customerId: "CUST001" })
 
-// 3. Support Ticket Analysis
-// Get open high-priority tickets with customer info
+// Find open high-priority tickets with customer information
+// Joins support tickets with customer data for high-priority open tickets
 db.support_tickets.aggregate([
   {
     $match: {
@@ -46,7 +49,8 @@ db.support_tickets.aggregate([
   }
 ])
 
-// Calculate average resolution time for tickets
+// Calculate average ticket resolution time in hours
+// For resolved tickets, computes time between creation and resolution
 db.support_tickets.aggregate([
   {
     $match: { status: "resolved" }
@@ -69,8 +73,8 @@ db.support_tickets.aggregate([
   }
 ])
 
-// 4. Revenue Analysis
-// Calculate total revenue by subscription tier
+// Calculate total subscription revenue by tier
+// Groups customers by tier and sums their subscription amounts
 db.customers.aggregate([
   {
     $group: {
@@ -81,8 +85,8 @@ db.customers.aggregate([
   }
 ])
 
-// 5. Feature Usage Patterns
-// Most used features across all customers
+// Find most frequently used features
+// Counts usage occurrences of each feature and sorts by frequency
 db.usage_logs.aggregate([
   {
     $group: {
@@ -95,8 +99,8 @@ db.usage_logs.aggregate([
   }
 ])
 
-// 6. Customer Health Metrics
-// Find customers with high support ticket volume
+// Find customers with multiple support tickets
+// Groups tickets by customer and counts tickets per customer
 db.support_tickets.aggregate([
   {
     $group: {
@@ -106,13 +110,13 @@ db.support_tickets.aggregate([
   },
   {
     $match: {
-      ticketCount: { $gt: 5 }
+      ticketCount: { $gt: 1 }
     }
   }
 ])
 
-// 7. Regional Analysis
-// Customer distribution by region
+// Analyze customer distribution and revenue by region
+// Groups customers by region and calculates metrics per region
 db.customers.aggregate([
   {
     $group: {
