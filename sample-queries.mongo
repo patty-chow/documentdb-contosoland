@@ -4,15 +4,6 @@
 // Returns customers with tier="enterprise" and their full details
 db.customers.find({ tier: "enterprise" })
 
-// Find customers with subscriptions expiring in the next 30 days
-// Returns customers whose renewalDate falls within the next 30-day window
-db.customers.find({
-  "subscription.renewalDate": {
-    $gte: new Date(),
-    $lte: new Date(new Date().setDate(new Date().getDate() + 30))
-  }
-})
-
 // Calculate total resource usage per customer
 // Groups usage by customerId and sums computeTime and dataProcessed
 // Returns customer IDs with their total resource consumption
